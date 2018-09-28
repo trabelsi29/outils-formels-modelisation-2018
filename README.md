@@ -18,12 +18,11 @@ You are free to choose another operating system, but note that
 **you won't receive support from the course's assistant for any system-related issue**
 if you chose to do so.
 
-### Setup your SSH keys on GitLab
+### Setup your SSH keys on GitHub
 
 So as to be able to clone, pull and push updates to GitLab repositories,
 you'll need GitLab to know your identity.
-The best way to do so is to [register your SSH keys]
-(https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/).
+The best way to do so is to [register your SSH keys](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/).
 
 1. Generate a new SSH key
 2. Add your SSH key to the ssh-agent
@@ -52,7 +51,7 @@ In order to do so,
 un the following command in your local repository (the one you cloned from your fork):
 
 ```bash
-git pull https://github.com/cui-unige/outils-formels-modelisation.git master
+git pull https://github.com/cui-unige/outils-formels-modelisation-2018.git master
 ```
 
 **Never ever** copy the new or update files from the base repository manually into your own!
@@ -98,7 +97,7 @@ Your branch is up to date with 'origin/master'.
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
 
-	modified:   SomeUpdatedFile.swift
+  modified:   SomeUpdatedFile.swift
   removed:    SomeRemovedFile.swift
   renamed:    OldName.swift -> NewName.swift
 
@@ -111,7 +110,7 @@ Changes not staged for commit:
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
-	UntrackedFile.md
+  UntrackedFile.md
 ```
 
 When you're satisfied with your changes, you can commit them with the command `git commit`.
@@ -166,7 +165,7 @@ each one accounting for 1 point.
 An additional half point can be added or subtracted from your score,
 depending on the quality of your code.
 
-You may run the tests yourself with the command `swift run`.
+You may run the tests yourself with the command `swift test`.
 This system means you can accurately estimate your grade yourself!
 
 You are free and even encouraged to work in group.
